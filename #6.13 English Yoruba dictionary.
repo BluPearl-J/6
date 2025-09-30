@@ -1,0 +1,29 @@
+
+
+
+  # An English to Yoruba translation dictionary
+translations = {
+    "hello": "bawo",
+    "goodbye": "odabo",
+    "please": "jọwọ",
+    "thank you": "ẹ ṣe",
+    "yes": "bẹẹni",
+    "no": "rara",
+    "water": "omi",
+    "food": "ounjẹ",
+    "house": "ilé",
+    "school": "ile-iwe",
+    "book": "iwe",
+    "love": "ifẹ",
+    "friend": "ọrẹ",
+    "family": "ẹbi",
+    "happy": "ayọ"
+}
+
+}
+
+# print two-column format
+print(f"{'English':<15} {'yoruba':<15}")
+print("-" * 30)
+for english, yoruba in translations.items():
+    print(f"{english:<15} {yoruba:<15}")
