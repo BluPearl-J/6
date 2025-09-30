@@ -1,0 +1,17 @@
+#6.12
+
+#Synonyms Dictionary in Python
+synonyms_dict = {
+  {
+  "happy": [ "gleeful", "merry"],
+  "fast": ["swift",  "brisk"],
+  "smart": ["brainy", "sharp", "wise"],
+  "beautiful": ["radiant", "elegant", ],
+  "angry": ["enraged", "agitated", "fuming"]
+}
+
+# Display the dictionary contents
+for word, synonyms in synonyms_dict.items():
+    print(f"{word.capitalize()}:")
+    for synonym in synonyms:
+        print(f"  {synonym}")
