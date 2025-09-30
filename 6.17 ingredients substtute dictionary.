@@ -1,0 +1,35 @@
+#6.17 ingredients substtute dictionary.
+
+import Re;
+ingredient_substitutions = {
+    "1 cup sour cream": ["1 cup yogurt"],
+    "1 cup milk": ["1/2 cup evaporated milk + 1/2 cup water", "1 cup soy milk"],
+    "1 teaspoon lemon juice": ["1/2 teaspoon vinegar"],
+    "1 cup sugar": ["1/2 cup honey", "1 cup molasses", "1/4 cup agave nectar"],
+    "1 cup butter": ["1 cup margarine", "1 cup yogurt"],
+    "1 cup flour": ["1 cup rye flour", "1 cup rice flour"],
+    "1 cup mayonnaise": [
+        "1 cup cottage cheese",
+        "1/8 cup mayonnaise + 7/8 cup yogurt"
+    ],
+    "1 egg": [
+        "2 tablespoons cornstarch",
+        "2 tablespoons arrowroot flour",
+        "2 tablespoons potato starch",
+        "2 egg whites",
+        "1/2 of a large banana (mashed)"
+    ],
+    "1 cup oil": ["1 cup applesauce"]
+}
+
+user_input=input("Enter the ingredients for your cooking recipe")
+
+def get_oil_substitute:
+ for key in ingredient_substitutions:
+  if re.search(user_input, key):
+   for x in ingredient_substitutions.values():
+ 
+print(my_dict.get(key))
+     
+else:
+    print("Ingredient not found in my current database of substitutes.,check back after a while or you can visit gov.health for tips on substituting food product.")
