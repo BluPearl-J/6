@@ -1,0 +1,40 @@
+A = {1, 2, 4, 8, 16}
+B = {1, 4, 16, 64, 256}
+#output  # {1,2,4,8,16,64,256}
+answer Operator is Union
+A | B  
+# Combines all unique elements
+
+
+
+NUMBER 2
+{1, 2, 4, 8, 16} *** {1, 4, 16, 64, 256}  #Output {1,4,16}
+#ANSWER NTERSECTION
+A & B  # Common elements of both sets
+
+
+
+NUMBER 3
+{1, 2, 4, 8, 16} *** {1, 4, 16, 64, 256}  # Output {2,8}
+#ANSWER ELEMENTS IN SET A NOT IN SET B.
+#OPERATOR DIFFERENCE
+ANSWER A-B
+
+NUMBER 4
+ {1, 2, 4, 8, 16} *** {1, 4, 16, 64, 256}  # {2,8,64,256}
+ #ANSWER ELEMNETYS IN SET B OR  IN SET A NOT BOTH.  REMAINDER ELEMENTS AFTER INTERSECTION
+ #SYMMETRIC DIFFERNECE
+ ANSWER A ^ B  # Elements in either A or B but not both
+
+
+
+ NUMBER 5
+
+ e) {1, 2, 4, 8, 16} *** {1, 4, 16, 64, 256}  # False
+
+# Checking if  A is improper subset of B
+ i.e is  A a subset of B but not equal to B.
+
+
+A < B  # True if A is a proper subset of B
+
