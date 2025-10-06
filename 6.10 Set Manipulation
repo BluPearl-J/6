@@ -1,0 +1,27 @@
+
+set1 = {'red', 'green', 'blue'}
+set2 = {'cyan', 'green', 'blue', 'magenta', 'red'}
+
+# number 1 Comparison Operators
+print("set1 == set2:", set1 == set2)
+#output is False
+print("set1 != set2:", set1 != set2)
+#output is True
+print("set1 < set2:", set1 < set2)
+#output is True
+print("set1 <= set2:", set1 <= set2)
+#output is True
+print("set1 > set2:", set1 > set2)
+#output is False
+print("set1 >= set2:", set1 >= set2)
+#output is False
+
+#number 2 Mathematical Set Operators
+print("Union:", set1 | set2)
+#output is {'red', 'green', 'blue', 'cyan', 'magenta'}
+print("Intersection:", set1 & set2)
+#output is {'red', 'green', 'blue'}
+print("Difference (set1 - set2):", set1 - set2)
+
+print("Symmetric Difference:", set1 ^ set2)
+#output is {'cyan', 'magenta'}
